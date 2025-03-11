@@ -91,7 +91,7 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 6. Click `Advanced`, then `Enable ADB`.
 {%- endif %}
 {%- endif %}
-4. Run `adb -d reboot sideload`.
+4. Run `adb -d reboot sideload`
     {% include alerts/important.html content="The device may reboot to a blank black screen, fear not, this is a known bug on some recoveries, proceed with the instructions." %}
 5. Run `adb -d sideload /path/to/zip` (inserting the path to your LineageOS package).
     {% include alerts/specific/tip_adb_flash_success.html %}
